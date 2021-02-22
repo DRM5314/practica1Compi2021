@@ -1,0 +1,105 @@
+<?xml   version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/botonReportes"
+        android:layout_width="177dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="117dp"
+        android:layout_marginLeft="117dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="117dp"
+        android:layout_marginRight="117dp"
+        android:onClick="pruebaTabla"
+        android:text="Reportes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botonVistaGrafica" />
+
+    <Button
+        android:id="@+id/botonVistaGrafica"
+        android:layout_width="177dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="117dp"
+        android:layout_marginLeft="117dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="117dp"
+        android:layout_marginRight="117dp"
+        android:onClick="pintar"
+        android:text="Vista grafica"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botonIngresarComandos" />
+
+    <Button
+        android:id="@+id/botonIngresarComandos"
+        android:layout_width="177dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="117dp"
+        android:layout_marginLeft="117dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginEnd="117dp"
+        android:layout_marginRight="117dp"
+        android:onClick="ventanaEditor"
+        android:text="Ingresar comandos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="114dp"
+        android:layout_marginLeft="114dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginRight="88dp"
+        android:text="Graficator1.0"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="41dp" /><![CDATA[
+
+
+
+
+
+
+
+
+
+
+
+
+        android:id="@+id/textView"
+        android:layout_height="wrap_content"
+        android:text="Ingrese instrucciones"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="31dp" />
+
+
+
+
+
+
+
+
+
+]]>
+</androidx.constraintlayout.widget.ConstraintLayout>

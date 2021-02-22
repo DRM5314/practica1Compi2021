@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PantallaReporteOcurrencias">
+
+    <Button
+        android:id="@+id/buttonReportesMatematicos"
+        android:layout_width="208dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="114dp"
+        android:layout_marginLeft="114dp"
+        android:layout_marginTop="60dp"
+        android:onClick="reporteAritmetico"
+        android:text="Ocurrencias matematicas"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="114dp"
+        android:layout_marginLeft="114dp"
+        android:layout_marginTop="42dp"
+        android:text="Area Reportes"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/botonReportesObjetos"
+        android:layout_width="208dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="114dp"
+        android:layout_marginLeft="114dp"
+        android:layout_marginTop="38dp"
+        android:onClick="reporteObjeto"
+        android:text="Objetos usados"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botonReportesColores" />
+
+    <Button
+        android:id="@+id/botonReportesAnimaciones"
+        android:layout_width="208dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginLeft="112dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginBottom="187dp"
+        android:onClick="reporteAnimacion"
+        android:text="Animaciones usadas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botonReportesObjetos"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/botonReportesColores"
+        android:layout_width="208dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="114dp"
+        android:layout_marginLeft="114dp"
+        android:layout_marginTop="38dp"
+        android:onClick="reporteColor"
+        android:text="Colores usados"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonReportesMatematicos" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Prueba1(Suma y resta)</string>
+    <string-array name="cabeceraOcurrenciaAnimacion">
+        <item>Tipo animacion:</item>
+        <item>Cantidad de usos</item>
+    </string-array>
+    <string-array name="cabeceraOcurrenciaColor">
+        <item>Color</item>
+        <item>Cantidad de usos</item>
+    </string-array>
+    <string-array name="cabeceraOcurrenciaObjeto">
+        <item>Objeto</item>
+        <item>Cantidad de usos</item>
+    </string-array>
+    <string-array name="cabeceraOcurrenciaOperadoresMatematicos">
+        <item>Operador</item>
+        <item>Ocurrencia</item>
+        <item>Linea</item>
+        <item>Columna</item>
+    </string-array>
+    <string-array name="cabeceraReporteErrores">
+        <item>Tipo</item>
+        <item>Linea</item>
+        <item>Columna</item>
+        <item>Descripcion</item>
+    </string-array>
+</resources>
